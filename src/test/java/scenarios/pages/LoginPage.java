@@ -1,11 +1,7 @@
-package scenarios;
+package scenarios.pages;
 
 import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-
-import java.util.List;
 
 /**
  * Created by Грам on 23.08.2016.

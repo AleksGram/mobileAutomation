@@ -1,4 +1,4 @@
-package scenarios;
+package scenarios.pages;
 
 /**
  * Created by Грам on 23.08.2016.

@@ -1,4 +1,4 @@
-package scenarios;
+package scenarios.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

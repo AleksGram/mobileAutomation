@@ -2,6 +2,7 @@ package scenarios;
 
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import scenarios.pages.PagesOfApp;
 
 import java.net.MalformedURLException;
 import java.io.File;
@@ -9,10 +10,10 @@ import java.net.URL;
 
 
 public class AndroidSetup {
-    String email = "agramatik@list.ru";
-    String password = "vtec1986";
-    String searchUser = "Dmitriy Volkov";
-    String myName = "Aleksandr Gramatik";
+    String email = "your email";
+    String password = "your password";
+    String searchUser = "searching user";
+    String myName = "your full name";
     String message = "auto test";
 
     protected static PagesOfApp pages;
