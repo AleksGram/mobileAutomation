@@ -26,6 +26,7 @@ public void typePassword (String pass){
 public void clickSignInBtn(){
     driver.findElement(signInBtn).click();
 }
+
 public void clickProffile(){
     waitForVisibilityOf(items);
    driver.findElement(items).click();

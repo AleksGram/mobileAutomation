@@ -1,4 +1,4 @@
-package scenarios;
+package scenarios.Tests;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
-public class AppiumTest extends AndroidSetup {
+public class AppiumTest extends BaseTest {
 
 
     @BeforeClass
@@ -22,7 +22,7 @@ public class AppiumTest extends AndroidSetup {
     @Test
     public void loginTest() {
 
-        pages.getSignInPage().clickSignInButton();
+       pages.getSignInPage().clickSignInButton();
         pages.getLoginPage().typeEmail(email);
         pages.getLoginPage().typePassword(password);
         pages.getLoginPage().clickSignInBtn();
@@ -49,6 +49,7 @@ public void sendMessage() {
         pages.getMessagePage().typeMessage(message);
         pages.getMessagePage().sendMessage();
         Assert.assertTrue(pages.getMessagePage().getMessage().isDisplayed());
+
     }
 
 
